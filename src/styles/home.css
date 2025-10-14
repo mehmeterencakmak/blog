@@ -1,0 +1,87 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+.wrapper .sidebar{
+    width: 20vw;
+    height: 20vh;
+}
+.wrapper .sidebar .area-target{
+    border: 1px solid red;
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+
+.header-target {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-target img {
+    margin-top: 80px;
+    width: 100%;
+    
+    display: block;
+
+}
+
+/* Yazı kutusu */
+.header-target-h {
+    position: absolute;
+    top: 30px;                    /* yukarıdan mesafe */
+    left: 50%;
+    transform: translateX(-50%);  /* yatay ortalama */
+    text-align: center;
+    color: #fff;
+}
+
+/* Büyük başlık */
+.header-target-h h1 {
+    font-family: "Pacifico", cursive; /* Google Font stili (romantik, el yazısı) */
+    font-size: 60px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.6); /* gölge efekti */
+}
+
+/* Alt başlık */
+.header-target-h h3 {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    margin-top: 10px;
+    color: #000;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+}
+
+
+/* .wrapper .posts .post-target{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+.post-target {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+  padding: 30px 0;
+}
+
+.post-card{
+    margin: 20px;
+
+}
+
+
+
+
